@@ -17,7 +17,6 @@ class InfoPage extends Component {
         <h2>
           <Curriculum />
         </h2>
-        <h3 />
       </div>
     );
   }

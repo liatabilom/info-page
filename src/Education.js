@@ -4,7 +4,7 @@ import "./Education.css";
 class Education extends Component {
   render() {
     return (
-      <div>
+      <div className="card2">
         <h1 className="subtitle">EDUCATION</h1>
         <h2 className="experienceText">
           <div>

@@ -45,7 +45,25 @@ class Experience extends Component {
                 Postediting. Editorial and Newsletter making.
               </li>
               <br />
-              <li />
+              <li>
+                <strong>Designer Trainee SONAE MO Man,</strong>
+                <br />
+                1 Year 2017-August 2018, Porto - Maia
+                <br />
+                Product development for both adult and young
+                <br />
+                lines, AW18 and SS19, on wovens and knitwear
+                <br />
+                (dealt with outerwear and all other product
+                <br />
+                typologies). Theme development. Graphic design
+                <br />
+                components (printmaking, labels and
+                <br />
+                editorials). Engagement with the sourcing and
+                <br />
+                marketing team.
+              </li>
             </ul>
           </div>
         </h2>
