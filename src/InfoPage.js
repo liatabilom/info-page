@@ -1,25 +1,28 @@
-import React, { Component } from "react";
-import Curriculum from "./Curriculum";
-import Search from "./Search";
+import React, { Component } from 'react';
+import Curriculum from './Curriculum';
+import Search from './Search';
 
 class InfoPage extends Component {
-  render() {
-    return (
-      <div>
-        <h1>
-          <header className="header .d-sm-flex">
-            Na'dia
-            <br />
-            Correia Gonc,alves
-          </header>
-          <Search />
-        </h1>
-        <h2>
-          <Curriculum />
-        </h2>
-      </div>
-    );
-  }
+	render() {
+		return (
+			<div>
+				<div className="header" style={{ padding: 20 }}>
+					<header>
+						Na'dia
+						<br />
+						Correia Gonc,alves
+					</header>
+				</div>
+				<br />
+				<Search />
+				<div className="row">
+					<div className="side">
+						<Curriculum />
+					</div>
+				</div>
+			</div>
+		);
+	}
 }
 
 export default InfoPage;
