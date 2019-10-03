@@ -2,21 +2,18 @@
 
 .mainCards {
 	position: relative;
-	left: 100px;
+	left: 0px;
 	top: 8px;
 	padding: 10px;
-	margin: 10px;
 }
 
 .jobTitle {
-	position: relative;
-	left: 140px;
-	top: 10px;
 	font-family: 'Nunito Sans', sans-serif;
 	font-size: 17px;
 	color: #000000;
 	line-height: 23px;
 	letter-spacing: -0.024em;
+	text-align: left;
 }
 
 .subtitle {

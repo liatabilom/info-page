@@ -1,5 +1,5 @@
 import React from 'react';
-import InfoPage from './InfoPage';
+import InfoMain from './InfoMain';
 import './App.css';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
 				backgroundColor: '#f5f4ef',
 			}}
 		>
-			<InfoPage />
+			<InfoMain />
 		</div>
 	);
 }

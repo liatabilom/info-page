@@ -8,8 +8,14 @@
 	font-size: 12px;
 	text-align: left;
 	text-indent: 15px;
-	margin: 0 0 0 10px;
-	padding: 0 0 0 10px;
+	padding: 0 0 0 5px;
+}
+
+.submitEmail {
+	position: absolute;
+	left: 280px;
+	top: 70px;
+	font-size: 50%;
 }
 
 .button {

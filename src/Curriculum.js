@@ -8,16 +8,16 @@ class AllCards extends Component {
 	render() {
 		return (
 			<div>
-				<h1 className="jobTitle">Product Designer</h1>
 				<div className="container mt-1 mainCards">
+					<h1 className="jobTitle">Product Designer</h1>
 					<div className="row">
-						<div className="card-body p-0 col-lg-4 border-top border-dark ">
+						<div className="card-body p-0 col-md-4 border-top border-dark ">
 							<Experience />
 						</div>
-						<div className="card-body p-0 col-lg-4 border-top border-dark">
+						<div className="card-body p-0 col-md-4 border-top border-dark">
 							<Education />
 						</div>
-						<div className="card-body p-0 col-lg-4 border-top border-dark">
+						<div className="card-body p-0 col-md-4 border-top border-dark">
 							<Contact />
 						</div>
 					</div>
