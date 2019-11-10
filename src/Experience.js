@@ -9,11 +9,11 @@ class Experience extends Component {
 					<div style={{ height: 480, marginRight: 30 }}>
 						<ul>
 							<li>
-								<strong>UX UI Designer</strong>
+								<strong>Visual / UI Designer</strong>
 								<br />
 								September 2019 - Present
 								<br />
-								Ethereum Collaboration Project
+								Digital Publishing House Collaboration
 							</li>
 							<br />
 							<li>
