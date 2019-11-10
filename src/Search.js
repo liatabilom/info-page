@@ -31,7 +31,12 @@ class Search extends Component {
 							<FontAwesomeIcon icon={faInfoCircle} size="1x" />
 						</span>
 						<span className="avocadoIcon float-left ml-3" role="img" aria-label="Avocado">
-							<a href="https://nadiacoralves.tumblr.com/" style={{ textDecoration: 'none' }}>
+							<a
+								href="https://nadiacoralves.tumblr.com/"
+								target="_blank"
+								rel="noopener noreferrer"
+								style={{ textDecoration: 'none' }}
+							>
 								🥑
 							</a>
 						</span>
