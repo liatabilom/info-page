@@ -21,7 +21,7 @@ class Experience extends Component {
 								<br />
 								October 2018 - March 2019, Maia - Lisbon
 								<br />
-								Responsable for one theme’s product development in
+								Responsible for one theme’s product development in
 								<br />
 								the Girl’s department for season Autumn/Winter
 								<br />
