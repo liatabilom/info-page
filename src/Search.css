@@ -1,37 +1,59 @@
-.emailInput {
-	display: flex;
-	background-color: transparent;
-	width: 295px;
-	height: 35px;
-	border: 0.5px solid #000000;
-	border-radius: 17px;
-	font-size: 12px;
-	text-align: left;
-	text-indent: 15px;
-	padding: 0 0 0 5px;
+.clearfix {
+  display: flex;
+  flex-direction: row;
 }
 
-.submitEmail {
+.emailInput {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  width: 295px;
+  height: 35px;
+  border: 0.5px solid #000000;
+  border-radius: 17px;
+  font-size: 12px;
+  text-align: left;
+  text-indent: 15px;
+  padding: 10px;
+}
+
+.emailInput input {
+  background: none;
+  border: none;
+}
+
+/* .submitEmail {
 	position: absolute;
 	left: 280px;
 	top: 70px;
 	font-size: 50%;
-}
+} */
 
 .button {
-	border-radius: 70px;
+  border-radius: 70px;
 }
 
 .avocadoIcon {
-	font-size: 70%;
+  font-size: 70%;
+  margin-left: 1rem;
 }
 
 .infoIcon {
-	font-size: 70%;
+  font-size: 70%;
+  margin-left: 1rem;
 }
 
-/* @media screen and (max-width: 400px) {
-	.emailInput {
-		font-size: 50%;
-	}
-} */
+@media screen and (max-width: 600px) {
+  .emailInput {
+    width: 234px;
+  }
+  .infoIcon {
+    margin-left: 0.4rem;
+  }
+
+  .avocadoIcon {
+    margin-left: 0.4rem;
+  }
+}
