@@ -11,6 +11,7 @@ class Card3 extends Component {
               correiagoncalvesnadia@gmail.com
               <br />
               <br />
+              +351932836572
             </p>
           </div>
         </h2>
