@@ -1,7 +1,6 @@
 .clearfix {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
 }
 
 .emailInput {
@@ -47,6 +46,10 @@
 }
 
 @media screen and (max-width: 600px) {
+  .clearfix {
+    justify-content: space-between;
+  }
+
   .emailInput {
     width: 234px;
   }
