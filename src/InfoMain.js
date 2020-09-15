@@ -6,7 +6,7 @@ import "./InfoMain.css";
 class InfoPage extends Component {
   render() {
     return (
-      <div class="mainHeader">
+      <div className="mainHeader">
         <div className="header">
           <header>
             <a
